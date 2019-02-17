@@ -1,5 +1,6 @@
-body {
-  /* background-color: #151515; */
+@font-face {
+  font-family: "Merriweather";
+  src: url("./fonts/Merriweather-Regular.ttf");
 }
 
 a {
@@ -7,6 +8,7 @@ a {
   color: white;
 }
 
+div:focus,
 input:focus,
 select:focus,
 textarea:focus,
@@ -14,9 +16,11 @@ button:focus {
   outline: none;
 }
 
+/* index page */
+
 .wrapper {
   text-align: center;
-  padding: 12%;
+  padding-top: 110px;
 }
 
 .title {
@@ -37,12 +41,12 @@ button:focus {
   line-height: 20px;
 }
 
-button {
+#one {
+  background-color: #21d39d;
   margin-top: 18px;
   padding: 6px;
-  background-color: #21d39d;
   width: 160px;
-  height: 30px;
+  height: 40px;
   border-radius: 3px;
   border: none;
   color: white;
@@ -52,7 +56,263 @@ button {
   font-size: 12px;
 }
 
-button :hover {
+#one :hover {
   cursor: pointer;
   color: #1fad83;
+  padding-bottom: 10px;
+}
+
+.green {
+  color: white;
+}
+
+/* editor light */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.left {
+  padding-left: 80px;
+  font-size: 14px;
+}
+
+.mid {
+  text-align: center;
+  font-weight: bold;
+}
+
+.right {
+  text-align: right;
+  padding-right: 80px;
+  font-size: 14px;
+}
+
+.openlight {
+  color: #1fad83;
+  margin-right: 20px;
+}
+
+.newlight {
+  color: #1fad83;
+}
+
+.textcontainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.textlight {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  /* display: grid; */
+  width: 600px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  height: 60vh;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 30px;
+  color: #505050;
+  background-color: rgb(255, 255, 255);
+  font-family: "Merriweather";
+  overflow-y: scroll;
+  padding-bottom: 30px;
+}
+
+.btn {
+  padding: 20px;
+}
+
+#icon {
+  padding-right: 6px;
+}
+
+.savelight {
+  background-color: #21d39d;
+  margin-top: 18px;
+  width: 130px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.warn {
+  display: inline;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #979797;
+  font-size: 12px;
+}
+
+#back {
+  color: #444444;
+}
+
+.bottom {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #c9c9c9;
+  font-size: 10px;
+  margin-top: 80px;
+}
+
+/* selection page */
+
+.wrapperMain {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newgrid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.panel {
+  /* width: 100%; */
+  text-align: center;
+  border-radius: 6px;
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.innerContent {
+  color: #505050;
+  font-family: "Merriweather";
+  color: #979797;
+  font-size: 11px;
+  padding: 20px;
+  line-height: 18px;
+  text-align: left;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#lightleft {
+  width: 220px;
+  height: 34px;
+  box-shadow: none;
+  border: none;
+
+  outline: none;
+  border-radius: 3px;
+  background-color: #21d39d;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* editor dark */
+
+.leftdark {
+  padding-left: 80px;
+  font-size: 14px;
+}
+
+#backdark {
+  color: #6b6b6b;
+  font-family: "Monaco";
+}
+
+.middark {
+  text-align: center;
+
+  font-family: "Monaco";
+  color: white;
+}
+
+.rightdark {
+  text-align: right;
+  padding-right: 80px;
+  font-size: 14px;
+}
+
+.opendark {
+  color: #1fad83;
+  margin-right: 20px;
+  font-family: "Monaco";
+}
+#open :hover {
+  cursor: pointer;
+}
+
+.newdark {
+  color: #1fad83;
+  font-family: "Monaco";
+}
+
+.textdark {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  /* display: grid; */
+  width: 600px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  height: 60vh;
+  /* margin-left: auto;
+    margin-right: auto; */
+  margin-top: 30px;
+  color: #dddddd;
+  background-color: #0a0e14;
+  padding-bottom: 30px;
+  font-family: "Monaco";
+  overflow-y: scroll;
+}
+
+.savedark {
+  background-color: #0a0e14;
+  margin-top: 18px;
+  /* width: 130px;
+  height: 30px; */
+  border-radius: 3px;
+  border: none;
+  color: #21d39d;
+  font-family: "Monaco";
+
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.warndark {
+  display: inline;
+  font-family: "Monaco";
+  color: #505050;
+  font-size: 11px;
+}
+
+span {
+  cursor: pointer;
 }

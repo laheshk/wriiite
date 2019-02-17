@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #0a0e14;
+        font-family: "Roboto Mono";
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <title>wriiite-af</title>
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="grid">
+      <div class="leftdark">
+        <a id="backdark" href="selection.html">Go Back</a>
+      </div>
+      <div class="middark">
+        Wriiite.
+      </div>
+      <div class="rightdark">
+        <span id="open" class="opendark">
+          //Open
+        </span>
+        <span id="new" class="newdark">
+          //New
+        </span>
+      </div>
+    </div>
+    <div class="textcontainer">
+      <textarea
+        id="maintext"
+        class="textdark"
+        placeholder="Start writing here mf.."
+      ></textarea>
+      <div class="btn">
+        <button id="save" class="savedark">
+          //Save asap
+        </button>
+        <p class="warndark">
+          Click this before you loose it like everything else.
+        </p>
+      </div>
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      require("./renderer.js");
+    </script>
+  </body>
+</html>
