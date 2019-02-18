@@ -33,7 +33,7 @@
     <key>DTXcodeBuild</key>
     <string>8E3004b</string>
     <key>LSApplicationCategoryType</key>
-    <string>public.app-category.developer-tools</string>
+    <string>public.app-category.productivity</string>
     <key>LSMinimumSystemVersion</key>
     <string>10.10.0</string>
     <key>NSHighResolutionCapable</key>
@@ -83,6 +83,6 @@
       </dict>
     </dict>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"5Py/Wjmtjcmux5IpBDTjaMvrtng2pkp40agaPdo4ZnGd176UhGhfd5D4oEw7GJrofmOzJLhWLPerHan4rCT1dQ==","electron.asar":"SZfTaNWZUIFcIYYFsbdi0waWJ8h/KSSh5c1tKxAjW14cXf0+1imKZ0CeHPnzWaacNzenDBrvfe8mAN0UIA0Z7Q=="}}</string>
+    <string>{"checksums":{"app.asar":"/4a+JMsj5o/mkDe8gyEJT7+jV2p1GPFHqMBIkZ5mbjBVj3ww1ZKvujLFYAJwrq4me0NZhwiKST8e45MXCRulFA==","electron.asar":"SZfTaNWZUIFcIYYFsbdi0waWJ8h/KSSh5c1tKxAjW14cXf0+1imKZ0CeHPnzWaacNzenDBrvfe8mAN0UIA0Z7Q=="}}</string>
   </dict>
 </plist>

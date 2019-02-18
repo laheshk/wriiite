@@ -1,7 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.electron.wriiite
-copyright: Copyright © 2019 madebylahesh
-productName: wriiite
-electronVersion: 4.0.4

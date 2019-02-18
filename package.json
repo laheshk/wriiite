@@ -1,18 +1,36 @@
 {
   "name": "wriiite",
   "version": "1.0.0",
-  "description": "This is it!",
+  "description": "The best text editor you'll ever meet in your life.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "postinstall": "install-app-deps",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+    "electron-toolkit": "electron ./node_modules/electron-toolkit"
   },
   "build": {
     "appId": "com.electron.wriiite",
     "copyright": "Copyright © 2019 madebylahesh",
-    "productName": "wriiite"
+    "productName": "wriiite",
+    "electronVersion": "4.0.4",
+    "asar": true,
+    "directories": {
+      "app": "/Users/slahesh/Documents/electron/electron-quick-start",
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

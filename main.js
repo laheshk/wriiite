@@ -48,12 +48,6 @@ function createWindow() {
         },
 
         {
-          label: "Hard Reload",
-          role: "forceReload",
-
-          accelerator: "Cmd+Shift+R"
-        },
-        {
           label: "Quit",
           click() {
             app.quit();
@@ -63,7 +57,7 @@ function createWindow() {
       ]
     },
     {
-      label: "Menu",
+      label: "Edit",
       submenu: [
         {
           label: "Select All",

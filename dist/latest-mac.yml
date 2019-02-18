@@ -1,12 +1,8 @@
 version: 1.0.0
 files:
-  - url: wriiite-1.0.0-mac.zip
-    sha512: mbPilkuAkEO7LNo3K887iZnjC6x5FxCzbH8Dudkk6c7mlC8uCvSrKeSuBCSmPcZC6Yh3UOG0DFcnhk32sxq8vg==
-    size: 53709988
-    blockMapSize: 57360
   - url: wriiite-1.0.0.dmg
-    sha512: m4RUh60CYsNRQS4xGzt2oyFRaipeETTgu5zXqhF8adWQS8qV8Q5XXhcr+WkDWpC0GIppIV+x1YDq64VJCPlSMw==
-    size: 56058413
-path: wriiite-1.0.0-mac.zip
-sha512: mbPilkuAkEO7LNo3K887iZnjC6x5FxCzbH8Dudkk6c7mlC8uCvSrKeSuBCSmPcZC6Yh3UOG0DFcnhk32sxq8vg==
-releaseDate: '2019-02-17T08:12:34.280Z'
+    sha512: wm36A2s3T/8FACC4c4ONe8Q7plqv+NVksbuEscd0v7wNXHPVJ62GE2S6FmHlwEJksx6Vt/7b0mpvr/bMDhx+3A==
+    size: 55912392
+path: wriiite-1.0.0.dmg
+sha512: wm36A2s3T/8FACC4c4ONe8Q7plqv+NVksbuEscd0v7wNXHPVJ62GE2S6FmHlwEJksx6Vt/7b0mpvr/bMDhx+3A==
+releaseDate: '2019-02-18T06:06:37.684Z'
