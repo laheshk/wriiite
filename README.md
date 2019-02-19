@@ -16,11 +16,11 @@ wriiite is an ultra simple yet offensive text editor experiment built on [Electr
 
 Grab the .dmg file from the **dist/wriiite-1.0.0.dmg** and install it in the Applications folder.
 
-Or clone this repository
+Or clone this repository (node.js/npm/git required)
 
     git clone https://github.com/laheshk/writtte
 
-To run , change into the app's directory, install dependencies, then start:
+To run, change into the app's directory, install dependencies, then start:
 
     cd wriiite
     npm install
