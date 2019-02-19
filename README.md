@@ -1,6 +1,6 @@
 # wriiite.
 
-wriiite is an ultra simple yet offensive text editor built on [Electron.js](https://electronjs.org/). It is just capable of editing text, saving and opening files to/from a local macOS directory.
+wriiite is an ultra simple yet offensive text editor experiment built on [Electron.js](https://electronjs.org/). It is just capable of editing text, saving and opening files to/from a local macOS directory.
 
 ![enter image description here](https://i.imgur.com/2FDq4Rw.png)
 
@@ -8,8 +8,8 @@ wriiite is an ultra simple yet offensive text editor built on [Electron.js](http
 
 ### Available Actions
 
-- `save` - **Write a .txt to file to a local directory**
-- `open` - **Read a file from a local directory**
+- `save` - **Writes a .txt file**
+- `open` - **Read and show files to edit**
 - `new` - **Refresh the editor to start a new file**
 
 ### Installation

@@ -17,11 +17,10 @@
     "electronVersion": "4.0.4",
     "asar": true,
     "directories": {
-      "app": "/Users/slahesh/Documents/electron/electron-quick-start",
+      "app": "/Users/slahesh/Documents/electron/electron-quick-start/wriiite",
       "output": "dist"
     },
     "mac": {
-      "category": "public.app-category.productivity",
       "target": [
         {
           "target": "dmg",
@@ -29,10 +28,11 @@
             "x64"
           ]
         }
-      ]
+      ],
+      "category": "public.app-category.productivity"
     }
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/laheshk/writtte",
   "keywords": [
     "Electron",
     "quick",
