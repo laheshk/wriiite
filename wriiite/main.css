@@ -3,6 +3,11 @@
   src: url("./fonts/Merriweather-Regular.ttf");
 }
 
+html,
+body {
+  -webkit-app-region: drag;
+}
+
 a {
   text-decoration: none;
   color: white;
