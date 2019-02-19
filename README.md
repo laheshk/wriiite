@@ -14,9 +14,9 @@ wriiite is an ultra simple yet offensive text editor built on [Electron.js](http
 
 ### Installation
 
-Grab the .dmg file from the dist/wriiite-1.0.0.dmg and install it in the Applications folder.
+Grab the .dmg file from the **dist/wriiite-1.0.0.dmg** and install it in the Applications folder.
 
-Or clone from this repository
+Or clone this repository
 
     git clone https://github.com/laheshk/writtte
 
