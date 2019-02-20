@@ -22,7 +22,7 @@ Or clone this repository (node.js/npm/git required)
 
 To run, change into the app's directory, install dependencies, then start:
 
-    cd wriiite
+    cd app
     npm install
     npm start
 
