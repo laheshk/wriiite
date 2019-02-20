@@ -14,7 +14,7 @@ wriiite is an ultra simple yet offensive text editor experiment built on [Electr
 
 ### Installation
 
-Grab the .dmg file from the **dist/wriiite-1.0.0.dmg** and install it in the Applications folder.
+Grab the .dmg file [here](https://www.dropbox.com/s/wub2doiqop3usr4/wriiite-1.0.0.dmg?dl=0) and install it in the Applications folder.
 
 Or clone this repository (node.js/npm/git required)
 
