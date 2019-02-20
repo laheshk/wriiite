@@ -1,0 +1,52 @@
+{
+  "name": "wriiite",
+  "version": "1.0.0",
+  "description": "The best text editor you'll ever meet in your life.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build",
+    "electron-toolkit": "electron ./node_modules/electron-toolkit"
+  },
+  "build": {
+    "appId": "com.electron.wriiite",
+    "copyright": "Copyright © 2019 madebylahesh",
+    "productName": "wriiite",
+    "electronVersion": "4.0.4",
+    "asar": true,
+    "directories": {
+      "app": "/Users/slahesh/Documents/electron/electron-quick-start/wriiite",
+      "output": "dist"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "public.app-category.productivity"
+    }
+  },
+  "repository": "https://github.com/laheshk/writtte",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "madebylahesh",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-builder": "^20.38.5"
+  },
+  "dependencies": {
+    "electron-reload": "^1.4.0"
+  }
+}
